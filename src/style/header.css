@@ -1,9 +1,6 @@
 .header{
     padding-top: 60px;
-    background:
-            url("../img/stone-1.svg") no-repeat left 0,
-            url("../img/stone-2.svg") no-repeat 30% 0;
-
+    background:url("../img/stone-1.svg") no-repeat left 0;
     background-color: var(--heder-footer-fon-color);
 }
 .header__logo-title{
