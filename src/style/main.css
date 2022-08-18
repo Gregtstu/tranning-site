@@ -1,0 +1,57 @@
+main{
+    background-color: var(--main-fon-color);
+}
+.main__about{
+    background: url("../img/about.jpg") no-repeat right 50%;
+}
+.about__list{
+    width: 762px;
+    height: 336px;
+}
+.about__item{
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.about__text:before{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #FDA300;
+    border-radius: 50%;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.adventages__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contacts-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: var(--heder-footer-fon-color);
+}
+.footer-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+

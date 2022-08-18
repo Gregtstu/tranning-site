@@ -11,10 +11,10 @@
 
 :root{
     --heder-footer-fon-color:#313131;
-    --main-fon-color:#E5E5E5;
+    --main-fon-color:#FFFFFF;
     --inform-text-color:#FFFFFF;
-    --title-h1-color:#F2A500;
-    --title-h2-color:#FFFFFF;
+    --title-h1-color:#FFFFFF ;
+    --title-h2-color:#F2A500;
     --bg-color:#EC7F00;
      box-sizing: border-box;
 }
