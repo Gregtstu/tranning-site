@@ -1,0 +1,56 @@
+.header{
+    padding-top: 60px;
+    background:
+            url("../img/stone-1.svg") no-repeat left 0,
+            url("../img/stone-2.svg") no-repeat 30% 0;
+
+    background-color: var(--heder-footer-fon-color);
+}
+.header__logo-title{
+    width: 239px;
+}
+.loft{
+    color: var(--title-h2-color);
+}
+
+.header__logo-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    gap: 280px;
+    margin-bottom: 65px;
+}
+.header__navigation{
+    margin-bottom: 42px;
+}
+.navigation__list{
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+}
+
+.navigation__link{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.header__hero{
+    padding-top: 198px;
+    /*position: relative;*/
+    background: url("../img/hero.jpg") no-repeat right/80%;
+}
+
+.hero__title{
+
+}
+.hero__text{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--inform-text-color);
+    width: 325px;
+    margin: 21px 0 86px 0;
+}
+
+
+

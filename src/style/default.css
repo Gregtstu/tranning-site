@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/maximum-impact');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+*, *:after, *:before{
+    box-sizing: inherit;
+}
+
+:root{
+    --heder-footer-fon-color:#313131;
+    --main-fon-color:#E5E5E5;
+    --inform-text-color:#FFFFFF;
+    --title-h1-color:#F2A500;
+    --title-h2-color:#FFFFFF;
+    --bg-color:#EC7F00;
+     box-sizing: border-box;
+}
+
+body{
+    font-family: Montserrat, sans-serif;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+h1{
+    font-family: impact, serif;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 83px;
+    color: var(--title-h1-color);
+}
+
+
+h2{
+    font-family: impact, serif;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 83px;
+    color: var(--title-h2-color);
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.hide{
+    display: none;
+}
+
+a{
+    color: var(--inform-text-color);
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button, input{
+    font:inherit;
+}
+
+button{
+    cursor: pointer;
+    background-color: var(--bg-color);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 18px 45px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--inform-text-color);
+}
+
+
+
