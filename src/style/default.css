@@ -17,6 +17,8 @@
     --title-h2-color:#F2A500;
     --bg-color:#EC7F00;
     --progess-fone:#C4C4C4;
+    --description-text-color: #2D2D2D;
+    --cards-bacground: #E9E9E9;
      box-sizing: border-box;
 }
 
@@ -32,10 +34,11 @@ img{
 }
 
 h1{
+    margin: 0;
     font-family: impact, serif;
     font-weight: 400;
     font-size: 68px;
-    line-height: 83px;
+    line-height: 60px;
     color: var(--title-h1-color);
 }
 
@@ -44,14 +47,13 @@ h2{
     font-family: impact, serif;
     font-weight: 400;
     font-size: 68px;
-    line-height: 83px;
     color: var(--title-h2-color);
 }
 
 .container{
-    max-width: 1440px;
+    max-width: 1455px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 38px 0 46px;
 }
 
 .hide{
@@ -73,17 +75,19 @@ button, input{
 }
 
 button{
+    padding: 18px 45px;
+    margin: 0;
+    height: 60px;
     cursor: pointer;
     background-color: var(--bg-color);
     border: none;
     outline: none;
     border-radius: 20px;
-    padding: 18px 45px;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
-    line-height: 24px;
     color: var(--inform-text-color);
+    z-index: 1000;
 }
 
 

@@ -1,34 +1,56 @@
 main{
     background-color: var(--main-fon-color);
 }
+
+/* стили для секции about*/
 .main__about{
-    background: url("../img/about.jpg") no-repeat right 50%;
+    margin: 0;
+    padding-top: 113px;
+    background: url("../img/about.jpg");
+    background-position: 98% 240px;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.title{
+    text-align: center;
 }
 .about__list{
+    margin-top: 44px;
     width: 762px;
-    height: 336px;
 }
 .about__item{
     margin-bottom: 35px;
     position: relative;
 }
 
-.about__text:before{
+.about__text{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--description-text-color);
+}
+.marker{
+    margin-left: 20px;
+}
+.marker:before{
     content: "";
     display: block;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    left: 0;
+    bottom: 10px;
     width: 8px;
     height: 8px;
     background-color: #FDA300;
     border-radius: 50%;
 }
 
+/* стили для секции about*/
 .cards{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    column-gap: 30px;
+    row-gap: 100px;
     flex-wrap: wrap;
 }
 
@@ -54,4 +76,125 @@ main{
     justify-content: space-between;
     gap: 30px;
 }
+
+/* стили для секции catalog*/
+.main__catalog{
+    padding-top: 200px;
+}
+
+.subtitle{
+    margin-top: 42px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: var(--description-text-color);
+}
+.discription{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--description-text-color);
+    width: 367px;
+    margin: 0 auto;
+}
+
+.catalog__cards{
+    margin-top: 54px;
+}
+.cards__product-title{
+    margin-top: 23px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: var(--description-text-color);
+
+}
+/*выравнивание кнопки*/
+.center{
+    margin: 56px 45% 0 45%;
+}
+
+
+/* стили для секции adventages*/
+.main__adventages{
+    padding-top: 123px;
+}
+.adventages__list{
+    margin-top: 65px;
+    margin-bottom: 172px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: start;
+}
+.adventages__item{
+    width: 300px;
+    background: var(--cards-bacground);
+}
+.adventages__text-wrapper{
+    padding: 60px 45px 0 45px;
+}
+
+.adventages__tex-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--description-text-color);
+}
+.adventages__tex-description{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--description-text-color);
+}
+
+.adventages h2{
+    margin-bottom: 120px;
+}
+
+/* стили для секции contacts*/
+.main__contacts{
+    padding-top: 170px;
+}
+.contacts-wrapper{
+    margin-top: 113px;
+}
+.ddresses__item span{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--description-text-color);
+}
+
+.ddresses__item p{
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--description-text-color);
+}
+
+/* стили для секции footer*/
+.footer{
+    padding: 30px 0 30px 17px;
+}
+.footer__list{
+    margin: 0 208px 0 67px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.footer__link{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--inform-text-color);
+}
+
 
