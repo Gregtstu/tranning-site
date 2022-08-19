@@ -75,6 +75,7 @@ button, input{
 }
 
 button{
+    display: block;
     padding: 18px 45px;
     margin: 0;
     height: 60px;
