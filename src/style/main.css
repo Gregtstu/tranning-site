@@ -5,7 +5,7 @@ main{
 /* стили для секции about*/
 .main__about{
     margin: 0;
-    padding-top: 113px;
+    padding-top: 50px;
     background: url("../img/about.jpg");
     background-position: 98% 240px;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ main{
 
 /* стили для секции catalog*/
 .main__catalog{
-    padding-top: 200px;
+    padding-top: 50px;
 }
 
 .subtitle{
@@ -121,7 +121,7 @@ main{
 /* стили для секции adventages*/
 .main__adventages{
     margin: 0;
-    padding-top: 123px;
+    padding-top: 50px;
 }
 .adventages__list{
     margin-top: 65px;
@@ -166,10 +166,10 @@ main{
 }
 /* стили для секции contacts*/
 .main__contacts{
-    padding-top: 170px;
+    padding-top: 70px;
 }
 .contacts-wrapper{
-    margin-top: 113px;
+    margin-top: 60px;
 }
 .ddresses__item span{
     display: block;
