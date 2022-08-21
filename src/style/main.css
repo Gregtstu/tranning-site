@@ -151,6 +151,7 @@ main{
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
+    text-align: center;
     color: var(--description-text-color);
 }
 
@@ -295,14 +296,23 @@ main{
 }
 
 @media (max-width: 576px) {
+    button{
+        padding: 18px 20px;
+    }
     h2{
-        font-size: 50px;
+        font-size: 30px;
+    }
+    .adventages__tex-description{
+        font-size: 20px;
     }
     .adventages__map{
         background-image: url("../img/maps-mini3.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
+    .discription{
+        width: 267px;
+}
 
 }
 

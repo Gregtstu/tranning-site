@@ -43,3 +43,7 @@ anchors.forEach(anchor => {
         })
     })
 })
+
+AOS.init({
+    duration: 3000,
+});
