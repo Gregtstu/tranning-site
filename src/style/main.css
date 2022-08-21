@@ -209,6 +209,10 @@ main{
     color: var(--inform-text-color);
 }
 
+.footer__link:hover{
+    color: var(--title-h2-color);
+}
+
 .footer__img{
     position: relative;
     width: 144px;
@@ -313,6 +317,9 @@ main{
     .discription{
         width: 267px;
 }
+    .adresses {
+        justify-content: flex-start;
+    }
 
 }
 
