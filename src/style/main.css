@@ -110,7 +110,9 @@ main{
     line-height: 44px;
     text-align: center;
     color: var(--description-text-color);
-
+}
+.cards__product-btn{
+    margin: 50px auto;
 }
 /*выравнивание кнопки*/
 .center{
@@ -137,7 +139,7 @@ main{
     background: var(--cards-bacground);
 }
 .adventages__text-wrapper{
-    padding: 60px 45px 0 45px;
+    padding: 60px 35px 0 35px;
 }
 
 .adventages__tex-title{
@@ -149,9 +151,9 @@ main{
 }
 .adventages__tex-description{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
-    text-align: center;
+    text-align: left;
     color: var(--description-text-color);
 }
 
@@ -164,6 +166,9 @@ main{
     background-image: url("../img/map.jpg");
     background-repeat: no-repeat;
     background-size: auto;
+}
+.adventages__btn{
+    margin: 0 auto;
 }
 /* стили для секции contacts*/
 .main__contacts{
@@ -269,6 +274,9 @@ main{
     .main__about{
         background-size: 100%;
     }
+    .cards {
+        row-gap: 30px;
+    }
     .adventages__map{
         background-image: url("../img/maps-mini.jpg");
         background-repeat: no-repeat;
@@ -305,10 +313,7 @@ main{
 @media (max-width: 576px) {
 
     h2{
-        font-size: 30px;
-    }
-    .adventages__tex-description{
-        font-size: 20px;
+        font-size: 45px;
     }
     .adventages__map{
         background-image: url("../img/maps-mini3.jpg");
@@ -317,11 +322,35 @@ main{
     }
     .discription{
         width: 267px;
-}
+    }
+    .adventages__text-wrapper{
+        padding: 10px 25px 0 25px;
+    }
+    .adventages__tex-title{
+        margin-bottom: 20px;
+    }
+    .adventages__tex-title, .adventages__tex-description{
+        font-size: 16px;
+    }
     .adresses {
         justify-content: flex-start;
     }
+    .cards__product-title{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    .main__catalog-discription{
+        text-align: center;
+        font-size: 18px;
+        width: 220px;
+    }
 
+}
+
+@media (max-width: 360px) {
+    h2{
+        font-size: 35px;
+    }
 }
 
 
