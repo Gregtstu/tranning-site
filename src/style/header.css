@@ -250,6 +250,9 @@
     .header__logo-wrapper {
         gap: 20px;
     }
+    .header__logo-wrapper h1{
+        font-size: 40px;
+    }
 
     .menu__list{
         width: 75%;
